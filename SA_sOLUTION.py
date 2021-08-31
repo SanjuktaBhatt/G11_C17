@@ -74,7 +74,7 @@ while carryOn:
  
   if time_elapsed>=300:
     pygame.time.wait(2000)
-     # Completeclose the game here
+     # Complete closing the game here
     screen.fill((100,100,255))
     font = pygame.font.Font(None, 34)
     text_display(44,"Money collected: "+str(money),255,0,255,10,200)
